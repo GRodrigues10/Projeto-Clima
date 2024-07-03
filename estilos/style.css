@@ -41,7 +41,7 @@ form{
     font-weight: 700;
     color: white;
     background-color:  rgba(0, 0, 0, 0.555);;
-    border: 1px solid rgb(0, 191, 255);
+    border: 1px solid lightblue;
     text-align: center;
 }
 button{
@@ -52,7 +52,7 @@ button{
     border-radius: 5px;
     background-color: rgba(0, 0, 0, 0.555);
     color: white;
-    border: 1px solid rgb(0, 191, 255);
+    border: 1px solid lightblue;
     transition: 0.3s ease;
 }
 
