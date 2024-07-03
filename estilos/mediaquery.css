@@ -3,6 +3,7 @@
         font-size: 1.5rem;
         text-align: center;
        }
+
     
        .formulárioClima{
         display: flex;
@@ -11,7 +12,7 @@
     
        .container{
         transition: 0.3s ease;
-        min-width: 60px;
+        width: 200px;
        }
     
        input{
@@ -33,20 +34,20 @@
         
     }
     .umidade{
-        font-size: 1rem;
+        font-size: 0.6rem;
        
     
     }
     .desc{
-        font-size: 1rem;
+        font-size: 0.6rem;
        
     }
     .emoji{
-        font-size: 1rem;
+        font-size: 0.6rem;
         
     }
     .erro{
-        font-size: 1rem;
+        font-size: 0.6rem;
         
     }
 
@@ -55,7 +56,7 @@
 
 
 
-@media screen and (min-width:320px) and (max-width:480px){
+@media screen and (min-width:321px) and (max-width:480px){
     h1{
         font-size: 2rem;
         text-align: center;
@@ -68,7 +69,7 @@
     
        .container{
         transition: 0.3s ease;
-        min-width: 150px;
+        width: 250px;
        }
     
        input{
@@ -79,23 +80,23 @@
         font-size: 1.5rem;
        }
        .cidade{
-        font-size: 2rem;
+        font-size: 1.8rem;
         
        }
       
     
     }
     .temperatura{
-        font-size: 1.5rem;
+        font-size: 1rem;
         
     }
     .umidade{
-        font-size: 1.5rem;
+        font-size: 1rem;
        
     
     }
     .desc{
-        font-size: 1.5rem;
+        font-size: 1rem;
        
     }
     .emoji{
@@ -128,7 +129,7 @@
 
    .container{
     transition: 0.3s ease;
-    min-width: 300px;
+    width: 400px;
    }
 
    input{
@@ -138,23 +139,23 @@
     font-size: 1.8rem;
    }
    .cidade{
-    font-size: 2.8rem;
+    font-size: 2rem;
     
    }
   
 
 }
 .temperatura{
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     
 }
 .umidade{
-    font-size: 1.8rem;
+    font-size: 1.5rem;
    
 
 }
 .desc{
-    font-size: 1.8rem;
+    font-size: 1.5rem;
    
 }
 .emoji{

@@ -68,7 +68,7 @@ button{
     background:rgba(0, 0, 0, 0.637);
     color: white;
     border-radius: 10px;
-    min-width: 400px;
+    width: 400px;
     padding: 20px;
     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.486);
     display: flex;
@@ -82,7 +82,7 @@ button{
 }
 
 .cidade{
-    font-size: 3.5rem;
+    font-size: 3rem;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.671);
     margin-bottom: 10px;
 }
