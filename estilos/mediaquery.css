@@ -1,3 +1,120 @@
+@media screen and (max-width:319px) {
+    h1{
+        font-size: 1.5rem;
+        text-align: center;
+       }
+    
+       .formulárioClima{
+        display: flex;
+        flex-direction: column;
+       }
+    
+       .container{
+        transition: 0.3s ease;
+        min-width: 60px;
+       }
+    
+       input{
+        width: 200px;
+        font-size: 1rem;
+       }
+       button{
+        font-size: 1rem;
+       }
+       .cidade{
+        font-size: 1.5rem;
+        
+       }
+      
+    
+    }
+    .temperatura{
+        font-size: 1rem;
+        
+    }
+    .umidade{
+        font-size: 1rem;
+       
+    
+    }
+    .desc{
+        font-size: 1rem;
+       
+    }
+    .emoji{
+        font-size: 1rem;
+        
+    }
+    .erro{
+        font-size: 1rem;
+        
+    }
+
+
+
+
+
+
+@media screen and (min-width:320px) and (max-width:480px){
+    h1{
+        font-size: 2rem;
+        text-align: center;
+       }
+    
+       .formulárioClima{
+        display: flex;
+        flex-direction: column;
+       }
+    
+       .container{
+        transition: 0.3s ease;
+        min-width: 150px;
+       }
+    
+       input{
+        font-size: 1.5rem;
+        width: 250px;
+       }
+       button{
+        font-size: 1.5rem;
+       }
+       .cidade{
+        font-size: 2rem;
+        
+       }
+      
+    
+    }
+    .temperatura{
+        font-size: 1.5rem;
+        
+    }
+    .umidade{
+        font-size: 1.5rem;
+       
+    
+    }
+    .desc{
+        font-size: 1.5rem;
+       
+    }
+    .emoji{
+        font-size: 2rem;
+        
+    }
+    .erro{
+        font-size: 1rem;
+        
+    }
+
+
+
+
+
+
+
+
+
 @media screen and (min-width:481px) and (max-width:768px) {
    
     h1{
