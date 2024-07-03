@@ -1,0 +1,49 @@
+@media screen and (min-width:481px) and (max-width:768px) {
+   
+    h1{
+    font-size: 2.8rem;
+   }
+
+   .formulárioClima{
+    display: flex;
+    flex-direction: column;
+   }
+
+   .container{
+    transition: 0.3s ease;
+    min-width: 300px;
+   }
+
+   input{
+    font-size: 1.8rem;
+   }
+   button{
+    font-size: 1.8rem;
+   }
+   .cidade{
+    font-size: 2.8rem;
+    
+   }
+  
+
+}
+.temperatura{
+    font-size: 1.8rem;
+    
+}
+.umidade{
+    font-size: 1.8rem;
+   
+
+}
+.desc{
+    font-size: 1.8rem;
+   
+}
+.emoji{
+    font-size: 3rem;
+    
+}
+.erro{
+    font-size: 1.5rem;
+}
