@@ -19,6 +19,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    overflow: hidden;
 }
 
 h1{
@@ -33,7 +34,7 @@ form{
 }
 
  input{
-    width: 300px;
+    width: 400px;
     padding: 10px;
     border-radius: 5px;
     font-size: 2rem;
