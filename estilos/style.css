@@ -47,6 +47,7 @@ form{
     background-color:  rgba(0, 0, 0, 0.555);;
     border: 1px solid lightblue;
     text-align: center;
+    outline: none;
 }
 button{
     padding: 10px;
