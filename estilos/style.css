@@ -26,11 +26,15 @@ h1{
     font-size: 4rem;
     margin-top: 10px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.699);
+    animation-name: flipTitle;
+    animation-duration: 1s;
 }
 
 
 form{
     margin-top: 40px;
+    animation-name: fadeIn;
+    animation-duration: 1.5s;
 }
 
  input{
@@ -79,6 +83,8 @@ button{
     border: 1px solid lightblue;
     margin-top: 30px;
     transition: 0.3s ease;
+    animation-name: fadeIn;
+    animation-duration: 1.5s;
     
 }
 
@@ -86,24 +92,67 @@ button{
     font-size: 3rem;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.671);
     margin-bottom: 10px;
+    animation-name: slideRight;
+    animation-duration: 1s;
 }
 .temperatura{
     font-size: 2rem;
     margin-bottom: 10px;
+    animation-name: fadeIn;
+    animation-duration: 2s;
 }
 .umidade{
     font-size: 2rem;
     margin-bottom: 10px;
+    animation-name: fadeIn;
+    animation-duration: 2s;
 
 }
 .desc{
     font-size: 2rem;
     margin-bottom: 10px;
+    animation-name: fadeIn;
+    animation-duration: 2s;
 }
 .emoji{
     font-size: 4rem;
     margin-bottom: 10px;
+    animation-name: fadeIn;
+    animation-duration: 2s;
 }
 .erro{
     font-size: 1.5rem;
+    animation-name: fadeIn;
+    animation-duration: 2s;
 }
+
+
+/* Animations */
+
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes flipTitle {
+    from{
+        transform: rotateX(90deg);
+    }
+
+    to{
+        transform: rotateX(0deg);
+    }
+}
+
+@keyframes slideRight {
+    0% {
+      transform: translateX(-5%); /* Começa no ponto inicial (sem deslocamento) */
+    }
+    100% {
+      transform: translateX(0%); /* Move para a esquerda, deslocando o slide para a direita */
+    }
+  }
